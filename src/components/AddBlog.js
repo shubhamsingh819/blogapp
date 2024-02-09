@@ -35,12 +35,11 @@ const AddBlog = () => {
       console.log(response);
       if (response) {
         toast.success("blog created successfully");
-
+        // If the request is successful, navigate to the blog list page
         setTimeout(() => {
           navigate("/blog/list");
         }, 1000);
       }
-      // If the request is successful, navigate to the blog list page
     } catch (error) {
       console.error("Error creating blog:", error);
       navigate("/blog/add", { replace: false });
@@ -57,8 +56,7 @@ const AddBlog = () => {
   return (
     <>
       <Toaster position="top-right" reverseOrder={false} />
-
-      <section className="add-contact p-3 d-flex justify-content-center align-items-center">
+      <section className="p-3 d-flex justify-content-center align-items-center">
         <div className="container">
           <div className="row">
             <div className="col text-center">

@@ -73,7 +73,7 @@ const EditBlog = () => {
     <>
       <Toaster position="top-right" reverseOrder={false} />
 
-      <section className="add-contact p-3 d-flex justify-content-center align-items-center">
+      <section className="p-3 d-flex justify-content-center align-items-center">
         <div className="container">
           <div className="row">
             <div className="col text-center">

@@ -69,7 +69,7 @@ const BlogList = () => {
   return (
     <>
       <Toaster position="top-right" reverseOrder={false} />
-      <section className="contact-search p-3">
+      <section className="p-3">
         <div className="container">
           <div className="grid">
             <div className="row">
