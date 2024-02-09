@@ -20,7 +20,7 @@ export const delete_blog = "Delete Article";
 export const created_at_btn = "CreatedAt";
 
 export const blog_text =
-  "In this Application You Can Save your Create Your Articles or Blog By Clicking Click To Add Your Articles Button.";
+  "In this application you can create your articles or blog by clicking click to add your articles button.";
 export const blog_sort_text = "Sort by Date";
 
 export const blog_edit = "Edit Your Blog";
